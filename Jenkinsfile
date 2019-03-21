@@ -90,8 +90,8 @@ pipeline {
         }
       }
     }
-
-    //////////
+/*
+    //////////START HERE
     stage('Staging Warm Up') {
       steps {
         echo "Waiting for the service to start..."
@@ -141,12 +141,9 @@ pipeline {
           }
         }
       }
-    }
-
-
-
-
-    ///////
+    }*/
+    ///////////ENDS HERE
+    
     stage('Run health check in dev') {
       when {
         expression {
