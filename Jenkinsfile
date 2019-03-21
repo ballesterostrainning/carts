@@ -90,7 +90,7 @@ pipeline {
         }
       }
     }
-/*
+
     //////////START HERE
     stage('Staging Warm Up') {
       steps {
@@ -141,7 +141,7 @@ pipeline {
           }
         }
       }
-    }*/
+    }
     ///////////ENDS HERE
     
     stage('Run health check in dev') {
